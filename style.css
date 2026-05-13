@@ -172,7 +172,7 @@ body{
   border-bottom: 1px solid var(--line-clr);
 } 
 
-.nutrition-table tr:nth-child(n+2){
+.nutrition-table tr{
     color: var(--text-clr);
 }
 
