@@ -183,13 +183,14 @@ body{
 @media (min-width: 768px){
     .card{
         max-width: 42.7rem;
+        padding: 1.8rem;
     }
 
     .content{
         padding: 0rem;
 }
 
-    .card, .nutrition-subheading,
+    .nutrition-subheading,
     .instructions-subheading, .ingredients-subheading{
         padding: 1.8rem;
     }
