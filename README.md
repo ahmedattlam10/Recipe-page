@@ -17,8 +17,8 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [solution URL](https://github.com/ahmedattlam10/Recipe-page)
+- Live Site URL: [live site URL](https://ahmedattlam10.github.io/Recipe-page/)
 
 
 
@@ -29,12 +29,16 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
+- order and unorder lists
+- taple
+
 
 
 ### What I learned
-
+that time i handled the lists with different types 
+i did good with the structure of HTML with lists and table 
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Website - [githup-profile](https://github.com/ahmedattlam10)
+- Frontend Mentor - [front-end mentor-profile](https://www.frontendmentor.io/profile/ahmedattlam10)
