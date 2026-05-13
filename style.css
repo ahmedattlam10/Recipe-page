@@ -166,10 +166,10 @@ body{
 }
 
 .nutrition-table tr:not(:last-child) {
-  border-bottom: 1px solid var(--l);
+  border-bottom: 1px solid var(--line-clr);
 } 
 
-.nutrition:nth-child(n+2){
+.nutrition-table:nth-child(n+2){
     color: var(--text-clr);
     font-weight: var(--fw-medium);
 }
@@ -181,21 +181,16 @@ body{
 @media (min-width: 768px){
     .card{
         max-width: 42.7rem;
-        padding: 1.8rem;
     }
 
     .content{
         padding: 0rem;
 }
 
-    .nutrition-subheading,
+    .card, .nutrition-subheading,
     .instructions-subheading, .ingredients-subheading{
         padding: 1.8rem;
     }
-    /* .main-img img{
-        border-radius: 2.5rem;
-    } */
-
      .card-title{
         font-size: 2.4rem;
      }
