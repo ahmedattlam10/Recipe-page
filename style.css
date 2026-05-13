@@ -58,15 +58,23 @@ body{
     padding: 1.8rem;
 }
 
+.card-title, 
+.description, 
+.ingredients-subheading, 
+.all-ingredients>li, 
+.instructions-subheading, 
+.all-instructions>li, 
+.nutrition-subheading, 
+.nutrition-table tr:nth-child(n+2){
+    font-weight: var(--fw-medium);
+}
 .card-title{
     font-family: var(--ff-h);
     color: var(--h1-clr);
-    font-weight: var(--fw-medium);
 }
 
 .description{
     font-size: var(--fs-p);
-    font-weight: var(--fw-medium);
     color: var(--text-clr);
 }
 
@@ -100,7 +108,6 @@ body{
 .ingredients-subheading{
     color: var(--brown-clr);
     font-family: var(--ff-h);
-    font-weight: var(--fw-medium);
 }
 
 .all-ingredients{
@@ -113,7 +120,6 @@ body{
     color: var(--text-clr);
     margin-bottom: 1rem;
     padding-left: 1rem;
-    font-weight: var(--fw-medium);
 }
 
 .all-ingredients > li::marker{
@@ -124,7 +130,6 @@ body{
 .instructions-subheading{
     color: var(--brown-clr);
     font-family: var(--ff-h);
-    font-weight: var(--fw-medium);
 }
 
 .all-instructions{
@@ -138,7 +143,6 @@ body{
     color: var(--text-clr);
     margin-bottom: 1rem;
     padding-left: 1rem ;
-    font-weight: var(--fw-medium);
 }
 
 .all-instructions > li > strong{
@@ -153,7 +157,6 @@ body{
 .nutrition-subheading{
     color: var(--brown-clr);
     font-family: var(--ff-h);
-    font-weight: var(--fw-medium);   
 }
 
 .nutrition-table{
@@ -162,7 +165,7 @@ body{
 }
 
 .nutrition-table td, .nutrition-table th{
-  padding: 14px 32px;
+  padding: 0.875rem 2rem;
 }
 
 .nutrition-table tr:not(:last-child) {
@@ -171,7 +174,6 @@ body{
 
 .nutrition-table tr:nth-child(n+2){
     color: var(--text-clr);
-    font-weight: var(--fw-medium);
 }
 
 .nutrition-table strong{
