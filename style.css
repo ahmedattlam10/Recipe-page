@@ -161,7 +161,7 @@ body{
     width: 100%;
 }
 
-.nutrition-table td {
+.nutrition-table td, .nutrition-table th{
   padding: 14px 32px;
 }
 
@@ -169,7 +169,7 @@ body{
   border-bottom: 1px solid var(--line-clr);
 } 
 
-.nutrition-table:nth-child(n+2){
+.nutrition-table tr:nth-child(n+2){
     color: var(--text-clr);
     font-weight: var(--fw-medium);
 }
@@ -199,6 +199,15 @@ body{
         font-size: 1rem;
         padding-left: 1.2rem;
      }
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
 }
 
 
